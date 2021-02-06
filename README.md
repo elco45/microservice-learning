@@ -2,6 +2,9 @@ Commands:
 
 - skaffold dev
 
+- docker build -t <container name> .
+- docker push <container name>
+
 - kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
 - kubectl get secrets
 - kubectl get pods
